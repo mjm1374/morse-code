@@ -1,0 +1,23 @@
+{
+  "name": "morse-code",
+  "version": "1.0.0",
+  "description": "Morse Code translator",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjm1374/morse-code.git"
+  },
+  "keywords": [
+    "morse",
+    "javascript"
+  ],
+  "author": "Mike & Eadin McAllister",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjm1374/morse-code/issues"
+  },
+  "homepage": "https://github.com/mjm1374/morse-code#readme"
+}
