@@ -1,4 +1,6 @@
-var gulp = require('gulp');
+"use strict";
+
+const gulp = require('gulp');
 //var cssnano = require('gulp-cssnano');
 //var sass = require('gulp-sass');
 var concat = require('gulp-concat');
@@ -44,7 +46,7 @@ gulp.task('watch', function () {
     gulp.watch('css/*.css', ['css']);
 });
 
-gulp.task('default', ['js', 'css', 'watch']);
+gulp.task('default', gulp.series('watch'));
 
 function onError(err) {
     console.log(err);
