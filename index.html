@@ -2,7 +2,12 @@
 <html>
 <head>
 <title>Morse Code Translator</title>
-<script src="js/morse.js" ></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="js/morse.js" ></script>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
@@ -14,4 +19,13 @@
 
 <div id="morse"></div>
 </body>
+<script>
+$(document).ready(function(){
+    $('#enter').click(function(){
+       let theEnglish = $('#english').val();
+       english2morse(theEnglish);
+    })
+
+})
+</script>
 </html>
